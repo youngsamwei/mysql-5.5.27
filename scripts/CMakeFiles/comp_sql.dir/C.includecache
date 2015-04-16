@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/packages/mysql-5.5.27/scripts/comp_sql.c
+stdarg.h
+-
+stdlib.h
+-
+stdio.h
+-
+
